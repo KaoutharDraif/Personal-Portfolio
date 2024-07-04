@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Personal Portfolio</title>
 </head>
+
 <body>
-    
+    <nav class="navbar">
+        <img src="My_logo.png" alt="logo" width="99px">
+        <a class="nav" href="#section_h">Home</a>
+        <a class="nav" href="#section_p">Project</a>
+        <a class="nav" href="About.html">About</a>
+        <a class="nav" href="#section_s">Skills</a>
+        <a class="nav" href="#section_c">Contact</a>
+    </nav>
+    <div class="firstcontent" id="section_h">
+        <h2 class="title">Hello! I'm Kaouthar Draif</h2>
+        <p class="description">Web development student. I'm currently learning to create dynamic and responsive websites
+            using HTML and CSS. My journey in the tech world has just begun, and I am excited to continue expanding my
+            skills and knowledge.</p>
+        <button class="btn">Download Resume <i class="fa-solid fa-download"></i></button>
+    </div>
+
+    <h2 class="tlt">Projects</h2>
+    <div class="project-section" id="section_p">
+        <div class="card">
+            <h4 class="title-p">Startup home page</h4>
+            <p>For this project, we recreate the home page of the startup's website where I'm working.</p>
+        </div>
+        <div class="card">
+            <h4 class="title-p">Hero section</h4>
+            <p>In this project, I creat a hero section. The goal was to use CSS for creating an engaging visual design
+                and HTML for proper structure.</p>
+        </div>
+        <div class="card">
+            <h4 class="title-p">Web summit page</h4>
+            <p>This project was about creating a landing page for a web summit event. It emphasized the use of advanced
+                CSS properties such as flexbox and grid to create a professional and organized layout.</p>
+        </div>
+        <div class="card">
+            <h4 class="title-p">Personal Portfolio</h4>
+            <p>I create my personal portfolio project. It involves using HTML for content and CSS for styling, with a
+                focus on creating a clean, modern design that is easy to navigate.</p>
+        </div>
+    </div>
+    <h2 class="tlt">Skills</h2>
+    <div class="skills-section" id="section_s">
+        <h4 class="title-s">HTML</h4>
+        <div class="bar-progress">
+            <div class="skill html">60%</div>
+        </div>
+        <h4 class="title-s">CSS</h4>
+        <div class="bar-progress">
+            <div class="skill css">40%</div>
+        </div>
+    </div>
+    <footer class="footer" id="section_c">
+            <div>
+                <h3 class="tlt-footer">Contact US</h3>
+                <p class="inf"><i class="fa-solid fa-map-location-dot fa-2xl"></i> Agadir Tilila</p>
+                <p class="inf"><i class="fa-regular fa-envelope fa-2xl"></i> Email : kaouthardraid@gmail.com</p>
+                <p class="inf"><i class="fa-solid fa-phone fa-2xl"></i> Phone: (+212)607-287945</p>
+            </div>
+            <div>
+                <h3>Follow US</h3>
+                <p>
+                    <i class="fa-brands fa-github fa-xl"></i>
+                    <i class="fa-brands fa-whatsapp fa-xl"></i>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </p>
+            </div>
+    </footer>
 </body>
+
 </html>
