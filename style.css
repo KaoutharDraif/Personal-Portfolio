@@ -133,6 +133,7 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
+
 }
 @media (max-width: 425px) {
     .image{
