@@ -125,6 +125,7 @@
     margin-top: 100px;
     padding: 100px;
     background-color: #F8F9FA;
+    width: 80%;
 }
 
 .inf {
@@ -140,11 +141,24 @@
 
 }
 
+.aboutimg {
+    width: 400px;
+    height: 400px;
+}
+
+.First-part {
+    font-size: 20px;
+}
+
+.second-part {
+    font-size: 20px;
+}
+
 .section-about {
     text-align: center;
     display: flex;
     justify-content: space-around;
-
+    margin-top: 100px;
 }
 
 @media (max-width: 480px) {
