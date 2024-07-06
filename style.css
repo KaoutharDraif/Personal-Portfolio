@@ -27,13 +27,14 @@
 
 .home-section {
     display: flex;
+    justify-content: space-around;
 }
 
 .firstcontent {
     padding: 100px;
     text-align: center;
     color: #086B6B;
-
+    
 }
 
 .btn {
