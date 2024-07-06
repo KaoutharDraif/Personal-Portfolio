@@ -21,8 +21,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.descripion {
-    font: 50px, ;
+.description {
+    font-size: 19px;
 }
 
 .home-section {
@@ -34,7 +34,7 @@
     padding: 100px;
     text-align: center;
     color: #086B6B;
-    
+
 }
 
 .btn {
@@ -65,9 +65,17 @@
     flex-wrap: wrap;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
 .card {
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 10px;
     width: 22%;
@@ -75,6 +83,8 @@
     font-size: 20px;
     background-color: #086B6B;
     color: whitesmoke;
+    box-sizing: border-box;
+    width: calc(25% - 20px);
 }
 
 .title-p {
@@ -127,26 +137,34 @@
     font-weight: bold;
     color: #086B6B;
     text-align: center;
-    
+
 }
-.section-about{
+
+.section-about {
     text-align: center;
     display: flex;
     justify-content: space-around;
 
 }
-@media (max-width: 425px) {
-    .image{
+
+@media (max-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+    .image {
         display: none;
     }
-    .title-p{
+    .description {
+        font-size: 20px;
+    }
+
+    .title-p {
         font-size: 25px;
         text-align: center;
     }
-    .card{
-        font-size: 20px;
-        margin: 10px;
-    padding: 50px;
-    text-align: center;
+
+    .card {
+        width: calc(100% - 20px)
     }
 }
